@@ -1,0 +1,49 @@
+# Ignore hidden files and directories
+.*
+*/.*
+
+# Ignore node_modules directory for Node.js applications
+node_modules
+
+# Ignore compiled Python files
+__pycache__
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+
+# Ignore Docker-related files
+.docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore development and test files
+*.test
+*.spec
+
+# Ignore version control system files
+.git
+.svn
+.gitignore
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore documentation files
+doc/
+docs/
+*.md
